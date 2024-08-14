@@ -1,0 +1,11 @@
+
+User 
+Shipper(id, storeId)
+Order (id, productId, quantity, userId, status)
+Ship(id, orderId, userId, status)
+
+Category (loại sản phẩm)
+Product (chỉ có thông tin về product đó)
+Store (chỉ có thông tin về store đó)
+ProductInStore (lưu hàng trong kho ở shop)
+Feedback
